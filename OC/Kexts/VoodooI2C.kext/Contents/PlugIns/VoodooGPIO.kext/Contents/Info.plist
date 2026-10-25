@@ -57,6 +57,19 @@
 			<key>IOProviderClass</key>
 			<string>IOService</string>
 		</dict>
+		<key>VoodooGPIOAlderLakeN</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.coolstar.VoodooGPIO</string>
+			<key>IOClass</key>
+			<string>VoodooGPIOAlderLakeN</string>
+			<key>IONameMatch</key>
+			<array>
+				<string>INTC1057</string>
+			</array>
+			<key>IOProviderClass</key>
+			<string>IOService</string>
+		</dict>
 		<key>VoodooGPIOAlderLakeS</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
@@ -66,7 +79,6 @@
 			<key>IONameMatch</key>
 			<array>
 				<string>INTC1056</string>
-				<string>INTC1085</string>
 			</array>
 			<key>IOProviderClass</key>
 			<string>IOService</string>
@@ -110,6 +122,19 @@
 			<key>IOProviderClass</key>
 			<string>IOService</string>
 		</dict>
+		<key>VoodooGPIORaptorLakeHX</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.coolstar.VoodooGPIO</string>
+			<key>IOClass</key>
+			<string>VoodooGPIORaptorLakeHX</string>
+			<key>IONameMatch</key>
+			<array>
+				<string>INTC1085</string>
+			</array>
+			<key>IOProviderClass</key>
+			<string>IOService</string>
+		</dict>
 		<key>VoodooGPIOSunrisePointH</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
@@ -136,6 +161,19 @@
 			<key>IOProviderClass</key>
 			<string>IOService</string>
 		</dict>
+		<key>VoodooGPIOTigerLakeH</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.coolstar.VoodooGPIO</string>
+			<key>IOClass</key>
+			<string>VoodooGPIOTigerLakeH</string>
+			<key>IONameMatch</key>
+			<array>
+				<string>INT34C6</string>
+			</array>
+			<key>IOProviderClass</key>
+			<string>IOService</string>
+		</dict>
 		<key>VoodooGPIOTigerLakeLP</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
@@ -144,6 +182,7 @@
 			<string>VoodooGPIOTigerLakeLP</string>
 			<key>IONameMatch</key>
 			<array>
+				<string>INT34C5</string>
 				<string>INTC1055</string>
 			</array>
 			<key>IOProviderClass</key>
